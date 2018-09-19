@@ -22,6 +22,7 @@ app.prepare().then(() => {
 		if (err) {
 			throw err;
 		} else {
+			// eslint-disable-next-line no-console
 			console.log(`Ready on http://localhost:${port}`);
 		}
 	});

@@ -5,7 +5,7 @@ module.exports = {
 		es6: true,
 		node: true
 	},
-	extends: 'eslint:recommended',
+	extends: ['eslint:recommended', 'plugin:react/recommended'],
 	parserOptions: {
 		ecmaFeatures: {
 			jsx: true
@@ -18,6 +18,8 @@ module.exports = {
 		indent: ['error', 'tab'],
 		'linebreak-style': ['error', 'unix'],
 		quotes: ['error', 'single'],
-		semi: ['error', 'always']
+		semi: ['error', 'always'],
+		'react/display-name': 'off',
+		'react/react-in-jsx-scope': 'off'
 	}
 };
