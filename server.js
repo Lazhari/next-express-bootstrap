@@ -10,6 +10,10 @@ const handle = app.getRequestHandler();
 app.prepare().then(() => {
 	const server = express();
 
+	server.get('/enterprise', (req, res) => {
+		return app.render(req, res, '/renderedByExpress');
+	});
+
 	server.get('*', (req, res, next) => {
 		return handle(req, res);
 	});

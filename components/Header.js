@@ -13,9 +13,11 @@ export default () => (
 			<Link href="/about">
 				<a className="p-2 text-dark">About</a>
 			</Link>
-			<a className="p-2 text-dark" href="#">
-				Enterprise
-			</a>
+			<Link href="/enterprise">
+				<a className="p-2 text-dark" href="#">
+					Enterprise
+				</a>
+			</Link>
 			<a className="p-2 text-dark" href="#">
 				Support
 			</a>
