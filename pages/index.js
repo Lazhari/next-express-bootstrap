@@ -1,6 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.css';
-import '../styles/main.css';
-
 import Layout from '../components/Layout';
 
 export default () => (
