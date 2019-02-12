@@ -17,6 +17,7 @@
 		"express": "4.16.4",
 		"next": "8.0.0",
 		"next-i18next": "0.31.0",
+		"prop-types": "15.7.1",
 		"react": "16.8.1",
 		"react-dom": "16.8.1"
 	},
